@@ -1,0 +1,7 @@
+p::after{
+    content: "*";
+}
+
+div::before{
+    content: "+";
+}
