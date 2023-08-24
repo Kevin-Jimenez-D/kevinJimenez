@@ -1,0 +1,31 @@
+.item{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.item1{
+    background-color: yellow;
+    
+}
+
+.item2{
+    background-color: blue;
+    flex-direction: column-reverse;
+}
+
+.item3{
+    background-color: red;
+    flex-direction: row-reverse;
+}
+
+.flex-container{
+	display: flex;
+}
+
+.flex-container.wrap{
+    -webkit-flex-wrap: wrap-reverse;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+ }
