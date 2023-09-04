@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+}
+
+.image-text-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 20px;
+}
+
+img{
+    width: 50%;               /*Ahora se puede editar probar 50% */   
+    height: auto;               /*Para que guarde la proporcion de la imagen */
+    padding: 20px;
+}
+
+.image-text-section img {
+    max-width: 50%;
+    /*height: auto;               tachada */
+}
+
+.text-section {
+    background-color: #444;
+    padding: 20px;
+}
+
+.image-container .imagen{
+    float: left;
+    /*width: 50%;                  Tachada */
+}
+
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .image-text-section {
+        flex-direction: column;
+    }
+
+    .image-container .imagen{
+    float: none;
+
+}
+}
