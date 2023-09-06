@@ -1,0 +1,62 @@
+body{
+    background-color: #1e1d2b;
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: #ff702a;
+}
+
+h1{
+    color: #ff702a;
+}
+
+#foods{
+    border: 5px solid #ff702a;
+    height: 100vh;
+}
+
+.uno{
+    width: 49%;
+    position: relative;
+}
+
+
+.dos{
+    width: 49%;
+}
+
+.foods-child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+/*Hasta aca todo en orden*/
+
+#about-us{
+    height: 100vh;
+    border: 5px solid #ff702a;
+    border-top: 0px;
+    position: relative;
+}
+
+.uno-img{
+    height: 100%;
+    top: 50%;
+    left: 50%;
+}
+
+.dos-text{
+    height: 49%;
+    position: relative;
+}
+
+.about-us-child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
